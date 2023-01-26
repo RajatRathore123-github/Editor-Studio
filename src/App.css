@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-section{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color : white;
+  height : 100vh;
+}
+.form-section{
+  background-color: gray;
+  padding : 20px;
+  border-radius: 10px;
+  width : 400px;
+  max-width : 90%;
+}
+.footer{
+  position : fixed;
+  bottom: 0;
+}
+.editor-input{
+  display: flex;
+  flex-direction: column;
+}
+.editor-info{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.room-id{
+  padding : 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border : none;
+  padding : 10px;
+  border-radius: 5px;
+  font-size: 16x;
+  font-weight: bold;
+  cursor : pointer;
+  transition: all 0.3 ease-in-out;
+}
+
+.join-btn, .leave-btn{
+  background-color: deepskyblue;
+  width : 100px;
+  margin-left: auto;
+}
+.join-btn:hover, .leave-btn:hover{
+  background-color: cornflowerblue;
+}
+.create-info{
+  margin : 0 auto;
+  margin-top: 10px;
+}
+.create-new{
+  color:blue;
+  transition: all 0.3 ease-in-out;
+}
+.create-new:hover, .Me:hover{
+  color: cornflowerblue;
+}
+.editor-content{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}  
+.left-content{
+  background-color: black;
+  padding: 15px;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.left-info{
+  flex: 1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.connection-list{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.username{
+  margin-top: 10px;
+}
+.logo{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+.logo-img{
+  height: 100px;
+}
+.leave-btn{
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
