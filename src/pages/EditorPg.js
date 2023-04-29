@@ -91,7 +91,7 @@ export default function EditorPg() {
       <div className="left-content">
         <div className="left-info">
           <div className="logo">
-            <img className="logo-img" src="/editor-img.png" alt="logo" />
+            <img className="logo-img" src="/favicon-96x96.png" alt="logo" />
           </div>
           <h3 className='status'>Connected</h3>
           <div className="connection-list">
