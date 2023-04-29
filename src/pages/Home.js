@@ -37,7 +37,7 @@ export default function Home() {
     <>
     <div className="home-section">
         <div className="form-section">
-            <img className="logo-img" src="/editor-img.png" alt="code-editor-logo" />
+            <img className="logo-img" src="/cover.png" alt="code-editor-logo" />
             <h4 className='editor-info'>
                 Paste invitation ROOM ID
             </h4>
