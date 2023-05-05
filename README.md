@@ -14,7 +14,7 @@ So, this can be helpful when you are in a team or in a meeting and want to discu
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![](/images/demo.png)
 
 
 ## Environment Variables
